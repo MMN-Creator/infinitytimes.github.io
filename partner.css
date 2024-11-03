@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('Fabled\ Fibre\ -\ Linen\ Interiors.jfif') ;
+    background-size: cover; 
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h2,h3 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.container {
+    display: flex;                
+    flex-wrap: wrap;              
+    justify-content: center;     
+    gap: 30px;                   
+    margin: 20px auto;           
+    padding: 30px;                
+}
+
+/* Partner card styling */
+.partner {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.partner-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.partner:hover{
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Image styles */
+.partner img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Link styling */
+a {
+    display: block;
+    text-align: center; 
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #007BFF;
+    font-weight: bold;
+}
+footer {
+    margin-top: 2em;
+    padding: 1em;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+

@@ -1,0 +1,75 @@
+/* Basic CSS styles for layout and font */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url('downloadd.jpg');
+    background-size: cover;
+    background-position: center 170vh;
+    color: white;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: whitesmoke;
+    padding: 1em;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header p{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    max-width: 800px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 2em;
+}
+
+.intro-text {
+    max-width: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 2em;
+    padding: 1em;
+    width: 100%;
+    background-color: rgba(43, 40, 40, 0.8);
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+

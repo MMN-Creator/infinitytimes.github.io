@@ -1,0 +1,86 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background: url('New\ Scandinavian\ Design.jfif') ;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.438);
+    color: black;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.order-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.order-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.order-form select,
+.order-form input[type="number"],
+.order-form input[type="text"],
+.order-form input[type="email"],
+.order-form input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.order-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.order-form button:hover {
+    background-color: #555;
+}
+
+fieldset {
+    border: none;
+    margin: 10px 0;
+}
+
+.contact-details {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+}
